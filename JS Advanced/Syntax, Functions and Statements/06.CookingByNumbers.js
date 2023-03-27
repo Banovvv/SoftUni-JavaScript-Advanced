@@ -1,6 +1,6 @@
 function cookingByNumbers(number, ...params) {
     console.log(number);
-    
+
     params.forEach(param => {
         if (param == 'chop') {
             number /= 2;
