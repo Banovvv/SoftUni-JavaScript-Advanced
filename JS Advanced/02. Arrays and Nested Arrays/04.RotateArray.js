@@ -1,6 +1,6 @@
 function rotateArray(elements, n) {
     for (let i = 0; i < n; i++) {
-        var element = elements.pop();
+        let element = elements.pop();
         elements.unshift(element);
     }
 

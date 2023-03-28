@@ -1,5 +1,5 @@
 function addAndRemoveElements(commands) {
-    var result = [];
+    let result = [];
 
     for (let i = 1; i <= commands.length; i++) {
         let command = commands[i - 1];

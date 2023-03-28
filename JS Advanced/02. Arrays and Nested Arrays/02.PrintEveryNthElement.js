@@ -1,5 +1,5 @@
 function printEveryNthElement(elements, n) {
-    var result = [];
+    let result = [];
 
     for (let i = 0; i < elements.length; i += n) {
         result.push(elements[i]);
