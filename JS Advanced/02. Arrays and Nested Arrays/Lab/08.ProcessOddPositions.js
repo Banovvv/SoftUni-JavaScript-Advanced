@@ -1,7 +1,7 @@
 function processOddPositions(numbers) {
     let result = [];
 
-    for (let i = 1; i < numbers.length; i+=2) {
+    for (let i = 1; i < numbers.length; i += 2) {
         result.unshift(numbers[i] * 2);
     }
 
