@@ -2,7 +2,7 @@ function townPopulation(elements) {
     let towns = {};
 
     elements.forEach(element => {
-        townInfo = element.split(" <-> ", 2);
+        const townInfo = element.split(" <-> ", 2);
 
         if (towns[townInfo[0]] == undefined) {
             towns[townInfo[0]] = 0;
