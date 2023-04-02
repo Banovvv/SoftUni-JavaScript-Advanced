@@ -9,8 +9,8 @@ function cookingByNumbers(number, ...params) {
         fillet() { number = (number * 0.80).toFixed(1); }
     };
 
-    params.forEach(comand => {
-        actions[comand]();
+    params.forEach(command => {
+        actions[command]();
 
         console.log(number);
     });
