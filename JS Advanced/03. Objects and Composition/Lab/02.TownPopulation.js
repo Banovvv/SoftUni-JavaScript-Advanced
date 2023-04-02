@@ -4,11 +4,11 @@ function townPopulation(elements) {
     elements.forEach(element => {
         townInfo = element.split(" <-> ", 2);
 
-        if (towns[`${townInfo[0]}`] == undefined) {
-            towns[`${townInfo[0]}`] = 0;
+        if (towns[townInfo[0]] == undefined) {
+            towns[townInfo[0]] = 0;
         }
 
-        towns[`${townInfo[0]}`] += parseInt(townInfo[1]);
+        towns[townInfo[0]] += parseInt(townInfo[1]);
     });
 
     console.log(towns);

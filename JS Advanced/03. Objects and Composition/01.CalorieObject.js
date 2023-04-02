@@ -3,7 +3,7 @@ function calorieObject(params) {
 
     for (let i = 0; i < params.length; i++) {
         if (i % 2 == 0) {
-            foods[`${params[i]}`] = params[i + 1];
+            foods[params[i]] = params[i + 1];
         }
     }
 
