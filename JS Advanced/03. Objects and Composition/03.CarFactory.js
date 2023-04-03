@@ -54,7 +54,9 @@ function carFactory(object) {
     }
 
     car.wheels = new Array(4)
-        .fill(object.wheelsize);
+        .fill(object.wheelsize % 2 == 0 ?
+            object.wheelsize - 1 :
+            object.wheelsize);
 
     return car;
 }
