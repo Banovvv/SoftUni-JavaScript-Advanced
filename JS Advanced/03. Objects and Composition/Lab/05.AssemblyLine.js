@@ -18,7 +18,7 @@ function createAssemblyLine() {
             };
             object.nowPlaying = function () {
                 if (this.currentTrack.name !== null && this.currentTrack.artist !== null) {
-                    console.log(`Now playing ``${this.currentTrack.name}`` by ${this.currentTrack.artist}`);
+                    console.log(`Now playing '${this.currentTrack.name}' by ${this.currentTrack.artist}`);
                 }
             };
         },
