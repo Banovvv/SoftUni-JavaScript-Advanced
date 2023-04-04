@@ -3,8 +3,7 @@ function lowestPrice(input) {
 
     input.forEach(element => {
         let [townName, product, price] = element.split(' | ');
-
-        let found = products.find(x => x.product == product)
+        let found = products.find(x => x.product == product);
 
         if (found) {
             if (found.price > price) {
