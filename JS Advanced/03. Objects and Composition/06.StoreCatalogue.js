@@ -14,7 +14,7 @@ function storeCatalogue(input) {
         char = product[0];
     });
 }
-
+ 
 storeCatalogue([
     'Appricot : 20.4',
     'Fridge : 1500',
