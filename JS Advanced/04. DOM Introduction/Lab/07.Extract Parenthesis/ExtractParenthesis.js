@@ -1,5 +1,5 @@
-function extract(content) {
-    let contentParagraph = document.getElementById('content');
+function extract(id) {
+    let contentParagraph = document.getElementById(id);
     let matches = contentParagraph.textContent
         .matchAll(/\((?<name>[^\)]+)\)/g);
 
