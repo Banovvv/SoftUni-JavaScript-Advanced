@@ -9,4 +9,4 @@ function toggle() {
         text.style.display = 'none';
         buttons[0].textContent = 'More';
     }
-}
+}  
