@@ -1,4 +1,14 @@
 function extractText() {
-    var text = document.getElementById("items").textContent;
-    document.getElementById("result").textContent = text;
+    var items = document.querySelectorAll('#items li');
+    let result = [];
+
+    items.forEach(item => {
+        result.push(item.textContent.trim());
+    });
+
+    let resultElement = document.getElementById("result");
+
+    resultElement.textContent = result
+        .join('\n')
+        .trim();
 }
