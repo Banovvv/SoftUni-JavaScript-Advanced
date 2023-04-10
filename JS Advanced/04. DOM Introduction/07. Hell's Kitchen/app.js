@@ -48,7 +48,7 @@ function solve() {
          employeeInfo += `Name: ${element.name} With Salary: ${element.salary}\n`;
       });
 
-      document.querySelector('#bestRestaurant p').textContent = 
+      document.querySelector('#bestRestaurant p').textContent =
          `Name: ${bestRestaurant.name} Average Salary: ${bestRestaurant.averageSalary.toFixed(2)} Best Salary: ${bestRestaurant.maxSalary.toFixed(2)}`;
 
       document.querySelector('#workers p').textContent = employeeInfo;
