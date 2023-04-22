@@ -23,8 +23,3 @@ function addDeleteLink(element) {
 
     element.appendChild(deleteElement);
 }
-
-function deleteElement(event) {
-    const target = event.currentTarget;
-    target.parentNode.removeChild(target);
-}
