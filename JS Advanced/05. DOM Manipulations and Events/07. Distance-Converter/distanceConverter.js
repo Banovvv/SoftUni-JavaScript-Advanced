@@ -9,7 +9,7 @@ function attachEventsListeners() {
 
     function convertEvent() {
         let input = Number(inputDistance.value);
-        let output = 0;
+        let result = 0;
 
         switch (inputUnit) {
             case 'km':
