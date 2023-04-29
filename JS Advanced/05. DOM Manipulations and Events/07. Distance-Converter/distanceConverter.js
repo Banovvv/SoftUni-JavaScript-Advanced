@@ -1,15 +1,15 @@
 function attachEventsListeners() {
     let convert = document.getElementById('convert');
-    let inputUnit = document.getElementById('inputUnits').value;
     let inputDistance = document.getElementById('inputDistance');
-    let outputUnit = document.getElementById('outputUnits').value;
     let outputDistance = document.getElementById('outputDistance');
 
     convert.addEventListener('click', convertEvent);
 
     function convertEvent() {
-        let input = Number(inputDistance.value);
         let result = 0;
+        let input = Number(inputDistance.value);
+        let inputUnit = document.getElementById('inputUnits').value;
+        let outputUnit = document.getElementById('outputUnits').value;
 
         switch (inputUnit) {
             case 'km':
